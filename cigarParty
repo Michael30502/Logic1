@@ -1,0 +1,12 @@
+public boolean cigarParty(int cigars, boolean isWeekend) {
+  
+  boolean result = true;
+  
+
+    if ((cigars>60&&isWeekend ==false)||cigars <40)
+    result =false;
+  
+  
+  return result;
+  
+}
