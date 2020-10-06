@@ -1,0 +1,11 @@
+public int caughtSpeeding(int speed, boolean isBirthday) {
+  int result = 0;
+  int birthdayCounter = (isBirthday? 5:0);
+  
+  if (speed > 60+birthdayCounter)
+  result = 1;
+  if (speed> 80+birthdayCounter)
+  result = 2;
+  
+  return result;
+}
