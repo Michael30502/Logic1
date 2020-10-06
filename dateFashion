@@ -1,0 +1,13 @@
+public int dateFashion(int you, int date) {
+  int result = 1;
+
+  if(date>= 8 ||8 <=you){
+    result=2;
+  }
+  if(date<= 2||2>=you){
+    result=0;
+  }
+  return result;
+  
+  
+}
